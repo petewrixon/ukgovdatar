@@ -13,6 +13,7 @@ website <-"https://www.ons.gov.uk/timeseriestool" |> xml2::read_html()
 
 
 max <- website %>%
-  html_element(css = "ul.pagination > li:nth-last-child(2)") %>%
-  html_text() %>%
+  rvest::html_element(css = "ul.pagination > li:nth-last-child(2)") %>%
+  rvest::html_text() %>%
   as.numeric()
+
