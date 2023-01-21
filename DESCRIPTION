@@ -14,3 +14,12 @@ BugReports: https://github.com/petewrixon/ukgovdatar/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Imports: 
+    htmltools,
+    httpuv,
+    httr,
+    jsonlite,
+    magrittr,
+    rvest,
+    xml2
+RoxygenNote: 7.2.3
