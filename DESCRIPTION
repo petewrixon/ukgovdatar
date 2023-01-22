@@ -20,6 +20,7 @@ Imports:
     httr,
     jsonlite,
     magrittr,
+    R6,
     rvest,
     xml2
 RoxygenNote: 7.2.3
